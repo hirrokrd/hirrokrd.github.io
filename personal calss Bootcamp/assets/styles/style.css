@@ -1,0 +1,42 @@
+/* EXTERNAL CSS */
+/* UNIVERAL SELECTER */
+*{
+    border: 1px solid black;
+}
+/* ELEMENT SELECTER */
+h2{
+    text-align: center;
+    background-color: cadetblue;
+}
+
+h2{
+    background-color: darkred;
+}
+
+/* class selecter */
+.style-1{
+    text-align: center;
+    font-style: italic;
+}
+
+/* ID selecter */
+#par-2{
+    text-align: right;
+    font-weight: bold;
+}
+
+h3.style-2{
+    background-color: gold;
+}
+
+h3{
+    background-color: deeppink;
+}
+
+ul li{
+    font-style: italic;
+}
+
+.list li{
+    font-weight: bold;
+}

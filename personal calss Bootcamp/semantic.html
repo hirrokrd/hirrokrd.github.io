@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SEMANTIC TAGS</title>
+    <style>
+        header{
+            width: 80%;
+            height: 20%;
+            background-color: aquamarine;
+        }
+        img{
+            width: 50%;            
+        }
+        nav{
+            width: 80%;
+            background-color: blue;
+        }
+        nav ul{
+            display: inline-flex;
+            color: white;
+        }
+        nav ul li{
+            display: inline;
+            color: white;
+            text-decoration: none;
+            margin-left: 15px;
+        }
+        nav ul li a{
+            color: white;
+            text-decoration: none;
+        }
+        section{
+            width: 80%;
+            display: block;
+            background-color: gray;
+        }
+        .all-browsers{
+            margin: 0px;
+            padding: 5px;
+            background-color: lightgray;
+        }
+        .all-browsers > h1, .browser{
+            margin: 10px;
+            padding: 5px;
+        }
+        .browser{
+            background-color: white;
+        }
+        .browser > h2, p{
+            margin: 4px;
+            font-size: 90%;
+        }
+        aside{
+            width: 30%;
+            padding-left: 15px;
+            margin-left: 15px;
+            float: right;
+            font-style: italic;
+            background-color: lightpink;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Header</h1>
+        <img src="assets/mainL_01.jpg" alt="">
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+    </nav>
+    <p>A section element is displayed like this:</p>
+    <section>
+        <h1>WWF</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, distinctio ipsum libero, harum reprehenderit sequi quam, dolore voluptatibus officia animi cumque quisquam repudiandae ipsa. Architecto id voluptatem necessitatibus non ipsam tempora eligendi iure quas temporibus explicabo dolores corporis deserunt eos, fugiat hic incidunt quis commodi repellat dolorum deleniti aliquid magni.</p>
+    </section>
+
+    <aside>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur ad doloremque ducimus modi consequuntur quibusdam magni, a adipisci recusandae? Dolore, corrupti vero? Adipisci fugiat sequi recusandae nihil veniam reprehenderit rerum.</p>
+    </aside>
+
+    <p>Change the default CSS settings to see the effect.</p>
+    <article class="all-browsers">
+        <h1>Most Popular Browsers</h1>
+        <article class="browser">
+            <h2>Google Chrome</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque, fuga nihil. Consequuntur necessitatibus doloribus, praesentium tempore sit soluta fugit? Temporibus unde praesentium dicta beatae, natus dolor est soluta rem illo in ducimus ullam provident minima fugit. Perspiciatis architecto, aliquid eligendi, libero neque corrupti sit iure sint suscipit, voluptatum quae similique.</p>            
+        </article>
+        <article class="browser">
+            <h2>Mozilla Fox</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque, fuga nihil. Consequuntur necessitatibus doloribus, praesentium tempore sit soluta fugit? Temporibus unde praesentium dicta beatae, natus dolor est soluta rem illo in ducimus ullam provident minima fugit. Perspiciatis architecto, aliquid eligendi, libero neque corrupti sit iure sint suscipit, voluptatum quae similique.</p>            
+        </article>
+    </article>
+    <footer>
+        Copyright 2024
+    </footer>
+</body>
+</html>

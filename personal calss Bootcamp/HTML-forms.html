@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+</head>
+<body>
+    <form action="#" method="#">
+        <label for="first-name">First Name</label>
+        <input type="text" name="firstname" id="first-name" placeholder="user_123">
+        <label for="last-name">Last Name</label>
+        <input type="text" name="lastname" id="last-name">
+        <br><br>
+        <label for="password">Password: </label>
+        <input type="password" name="user_password" id="password">
+        <br><br>
+        <label for="age">Age</label>
+        <input type="number" name="age" id="age" min="18" max="80">
+        <br><br>
+        <label for="bday">Birthday:</label>
+        <input type="date" name="bday" id="bday">
+        <br><br>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email">
+        <br><br>
+        <label for="comments">Comments:</label>
+        <br>
+        <textarea name="comments" id="comments" cols="50" rows="5"></textarea>
+        <br><br>
+        <label for="">Gender</label>
+        <input type="radio" name="gender" id="male" value="male" value="male" required>
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="female" value="female" required>
+        <label for="female">Female</label>
+        <br><br>
+        <label for="hobby">Hobby/ies:</label>
+        <input type="checkbox" name="hobby" id="hiking" value="hiking" required>
+        <label for="hiking">Hiking</label>
+        <input type="checkbox" name="hobby" id="baking" value="baking" required>
+        <label for="baking">Baking</label>
+        <input type="checkbox" name="hobby" id="cycling" value="cycling" required>
+        <label for="cycling">Cycling</label>
+        <br><br>
+        <label for="device">Select your device:</label>
+        <select name="device" id="device">
+            <option value="cellphone">Cellphone</option>
+            <option value="Laptop">Laptop</option>
+            <option value="desktop">Desktop</option>
+        </select>
+        <br><br>
+        <label for="device">Select your device:</label>
+        <select name="device" id="device" multiple>
+            <option value="cellphone">Cellphone</option>
+            <option value="Laptop">Laptop</option>
+            <option value="desktop">Desktop</option>
+        </select> 
+        <br><br>
+        <input type="file" name="profile_photo" id="profile-photo" required> 
+        <br><br>
+        <!-- SUBMIT BOTTUN(INPUT) -->
+        <input type="submit" value="Submit" name="btn_submit">
+        <!-- SUBMIT BOTTUN(INPUT) -->
+        <button type="submit" name="btn_submit">Submit</button>
+    </form>
+</body>
+</html>

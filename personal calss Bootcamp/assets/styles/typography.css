@@ -1,0 +1,32 @@
+.text-darkred{
+    color: darkred;
+}
+
+.text-blure{
+    color: rgb(1, 60, 255);
+}
+
+.text-blue-50{
+    color: rgb(1, 60, 255);
+}
+
+.text-lime{
+    color: rgba(189, 218, 0, 0.9);
+    /*.9 => 90% transparent*/
+}
+
+.text-brown{
+    color: #c7a17a;
+}
+
+.font-serif{
+    font-family: serif;
+}
+
+.font-sans-serif{
+    font-family: sans-serif;
+}
+
+.font-monospace{
+    font-family: monospace;
+}
